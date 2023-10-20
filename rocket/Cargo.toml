@@ -1,0 +1,12 @@
+[package]
+name = "rust_web_benchmark"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = "1"
+rocket = { version = "0.5.0-rc.3", features = ["json"] }
+serde = { version = "1.0.189", features = ["derive"] }
+bcrypt = "0.15.0"
